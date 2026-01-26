@@ -69,7 +69,7 @@ Upload a PCB image (Gerber export or photo) to the interface and view the result
 ├── modelcard.md        # 📊 Model Performance Metrics
 ├── requirements.txt    # 📦 Python Dependencies
 └── README.md           # 📖 Project Documentation
-
+```
 🛠️ Tech Stack
 Core Engine: Python, PyTorch
 
