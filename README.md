@@ -61,15 +61,14 @@ streamlit run app.py
 ## 4. Test
 Upload a PCB image (Gerber export or photo) to the interface and view the results instantly.
 
-📂 Project Structure
-Plaintext
-
-├── app.py              # Streamlit Web Application
-├── best.pt             # Trained YOLOv8 Model Weights
-├── datasetcard.md      # Dataset documentation & sources
-├── modelcard.md        # Technical model details & metrics
-├── requirements.txt    # Python dependencies
-└── README.md           # Project documentation
+## 📂 Project Structure
+```text
+├── app.py              # 🚀 Main Application (Streamlit Interface)
+├── best.pt             # 🧠 Trained YOLOv8 Model Weights
+├── datasetcard.md      # 📉 Dataset Documentation & Sources
+├── modelcard.md        # 📊 Model Performance Metrics
+├── requirements.txt    # 📦 Python Dependencies
+└── README.md           # 📖 Project Documentation
 
 🛠️ Tech Stack
 Core Engine: Python, PyTorch
