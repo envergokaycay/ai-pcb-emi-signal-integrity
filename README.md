@@ -49,7 +49,9 @@ The model was trained on a hybrid dataset of **944 images** (Real Industrial Des
 ## 🚀 Installation & Usage
 
 ## 1. Clone the Repository
-git clone [https://github.com/YOUR_USERNAME/REPO_NAME.git](https://github.com/YOUR_USERNAME/REPO_NAME.git)
+git clone [https://github.com/envergokaycay/ai-pcb-emi-signal-integrity
+.git]([https://github.com/YOUR_USERNAME/REPO_NAME.git](https://github.com/envergokaycay/ai-pcb-emi-signal-integrity
+.git))
 cd REPO_NAME
 
 ## 2. Install Dependencies
