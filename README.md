@@ -25,20 +25,20 @@ By leveraging **Computer Vision (YOLOv8)**, this system detects high-risk patter
 
 ### 1. Image Upload
 Users can easily upload Gerber exports or PCB layout images via the drag-and-drop interface.
-![Image Upload Interface]([image_upload.png])
+![Image Upload Interface](image_upload.png)
 
 ### 2. Automated Defect Detection
 The YOLOv8 model instantly processes the image, drawing bounding boxes around critical design faults (`hata_90` and `hata_stub`).
-![Automated Detection Result]([design_error_detection.png])
+![Automated Detection Result](design_error_detection.png)
 
 ### 3. Detailed Reporting & Action Plan
 Beyond detection, the system provides an interactive technical report explaining **why** the defect is risky and **how to fix it**.
 
 **Stub Error Report:** Highlights signal reflection and EMI risks, offering clear routing solutions.
-![Stub Error Report]([error_stub.png])
+![Stub Error Report](error_stub.png)
 
 **90-Degree Bend Report:** Explains acid trap risks and impedance mismatch, suggesting 45-degree miters or rounded arcs.
-![90 Degree Bend Report]([error_90.png])
+![90 Degree Bend Report](error_90.png)
 
 ---
 
@@ -54,7 +54,8 @@ This project supports the United Nations Sustainable Development Goals:
 ## 📊 Model Performance
 The model was trained on a hybrid dataset of **944 images** (Real Industrial Designs + Synthetic Fault Injection) using **YOLOv8**.
 
-![Model Training Metrics]([results.png])
+![Model Training Metrics](results.png)
+![Confusion Matrix](confusion_matrix.png)
 
 | Metric | Score | Description |
 | :--- | :--- | :--- |
